@@ -29,6 +29,7 @@ setuptools.setup(
         "Natural Language :: Chinese (Simplified)",
         "Natural Language :: English",
     ],
+    include_package_data=True,
     packages=setuptools.find_packages(),
     install_requires=install_requires,
     python_requires=">=3.7",
