@@ -7,7 +7,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="rich-LogConsole",
-    version="1.0.1",
+    version="1.0.2",
     author="Wankko Ree",
     author_email="wkr@wkr.moe",
     description="一个实现了在一定高度自动滚动的 rich 日志组件，有两种刷新方式，建议配合Layout、Panel等组件使用。",
@@ -31,6 +31,7 @@ setuptools.setup(
     ],
     include_package_data=True,
     packages=setuptools.find_packages(),
+    setup_requires=['wheel'],
     install_requires=install_requires,
     python_requires=">=3.7",
 )

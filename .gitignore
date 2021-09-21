@@ -1,3 +1,5 @@
 /.idea/
 /dist/
 /rich_LogConsole.egg-info/
+/.eggs/
+/build/
