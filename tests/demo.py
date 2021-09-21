@@ -4,7 +4,7 @@ from rich.layout import Layout
 from rich.live import Live
 from rich.panel import Panel
 
-from LogConsole import LogConsoleScroll, LogConsoleOverwrite
+from rich_LogConsole import LogConsoleScroll, LogConsoleOverwrite
 
 if __name__ == '__main__':
     layout = Layout()

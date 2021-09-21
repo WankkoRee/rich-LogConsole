@@ -4,7 +4,7 @@ from rich.table import Table
 
 class LogConsoleScroll:
     """
-    实现在一定高度自动滚动的rich日志类，建议配合Layout、Panel等组件使用
+    一个实现了在一定高度自动滚动的 rich 日志组件，建议配合Layout、Panel等组件使用。
     """
     __log_lines: list
     __height: int
@@ -32,7 +32,7 @@ class LogConsoleScroll:
 
 class LogConsoleOverwrite:
     """
-    实现在一定高度自动覆写的rich日志类，建议配合Layout、Panel等组件使用
+    一个实现了在一定高度以覆写的形式自动滚动的 rich 日志组件，建议配合Layout、Panel等组件使用。
     """
     __log_lines: list
     __height: int
