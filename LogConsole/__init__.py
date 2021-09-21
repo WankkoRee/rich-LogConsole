@@ -1,6 +1,5 @@
 from rich.console import Console, ConsoleOptions, RenderResult
 from rich.table import Table
-from rich.text import Text
 
 
 class LogConsoleScroll:
