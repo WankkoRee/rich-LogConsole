@@ -7,7 +7,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="rich-LogConsole",
-    version="1.0.2",
+    version="1.0.3",
     author="Wankko Ree",
     author_email="wkr@wkr.moe",
     description="一个实现了在一定高度自动滚动的 rich 日志组件，有两种刷新方式，建议配合Layout、Panel等组件使用。",
